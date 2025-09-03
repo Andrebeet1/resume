@@ -3,149 +3,274 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>CV - André Rochise</title>
-  <meta content="Développeur web et mobile - Django, Flax, JavaScript, Java, HTML, CSS" name="description">
-  <meta content="CV, Portfolio, Développeur, Web, Mobile, Django, Flax, Java" name="keywords">
+  <title>Portfolio – André Rochise</title>
+  <meta content="Développeur web & mobile freelance basé à Bukavu, spécialisé Django, Flax, JavaScript et Java." name="description">
+  <meta content="Portfolio, Développeur Web, Développeur Mobile, Django, JavaScript, Flax, Bukavu" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700|Poppins:300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,700|Poppins:400,600&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Main CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- ======= En-tête ======= -->
-<header id="header">
-  <div class="container">
-    <h1><a href="index.html">André Rochise</a></h1>
-    <h2>Développeur <span>Web & Mobile</span> basé à Bukavu</h2>
-
-    <div class="social-links">
-      <a href="mailto:andre.rochise@yahoo.com"><i class="bi bi-envelope"></i></a>
-      <a href="#"><i class="bi bi-linkedin"></i></a>
-      <a href="#"><i class="bi bi-github"></i></a>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>André Rochise</h1>
+      <p>Développeur <span class="typed" data-typed-items="Web, Mobile, Backend, Freelance"></span></p>
     </div>
-  </div>
-</header>
+  </section>
 
-<!-- ======= À propos ======= -->
-<section id="about" class="about">
-  <div class="container">
-    <div class="section-title">
-      <h2>À propos</h2>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="Photo de profil" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">André Rochise</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="mailto:andre.rochise@yahoo.com" class="email"><i class="bi bi-envelope"></i></a>
+          <a href="https://github.com/" class="github"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bi bi-house"></i> <span>Accueil</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bi bi-person"></i> <span>À propos</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bi bi-file-earmark-text"></i> <span>CV</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bi bi-gear"></i> <span>Services</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bi bi-collection"></i> <span>Projets</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bi bi-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav>
     </div>
-    <p>
-      Développeur Web et Mobile innovant et orienté détail, spécialisé en Django, Flax, JavaScript, jQuery, Java, HTML et CSS. 
-      Expérimenté dans la création d’applications web évolutives et de solutions mobiles. 
-      Je combine compétences techniques et connaissances en gestion acquises grâce à mes expériences professionnelles et mes études.
-    </p>
-  </div>
-</section>
+  </header>
 
-<!-- ======= Compétences ======= -->
-<section id="skills" class="skills">
-  <div class="container">
-    <div class="section-title">
-      <h2>Compétences</h2>
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>À propos</h2>
+        <p>Développeur web et mobile passionné basé à Bukavu, spécialisé en Django, Flax, JavaScript, jQuery, Java et HTML/CSS. Je conçois et développe des solutions numériques efficaces, allant des applications web responsives aux applications mobiles Android. Avec un parcours alliant informatique et sciences commerciales, je sais combiner compétences techniques et sens du business.</p>
+      </div>
     </div>
-    <ul>
-      <li><b>Front-end :</b> HTML5, CSS3, JavaScript (ES6+), jQuery, Design Responsive</li>
-      <li><b>Back-end :</b> Django, Flax (Python), Intégration d’API REST</li>
-      <li><b>Développement mobile :</b> Java (Android)</li>
-      <li><b>Outils :</b> Git/GitHub, Méthodes Agiles, Debug & Testing</li>
-      <li><b>Compétences Business :</b> Gestion de clients, Recouvrement, Support administratif</li>
-    </ul>
-  </div>
-</section>
+  </section>
 
-<!-- ======= Expériences ======= -->
-<section id="resume" class="resume">
-  <div class="container">
-    <div class="section-title">
-      <h2>Expériences professionnelles</h2>
+  <!-- ======= Skills Section ======= -->
+  <section id="skills" class="skills section-bg">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Compétences</h2>
+      </div>
+      <div class="row skills-content">
+        <div class="col-lg-6">
+          <ul>
+            <li>HTML5 / CSS3 / JavaScript (ES6+), jQuery</li>
+            <li>Django & Flax (Python)</li>
+            <li>Java (Android)</li>
+            <li>APIs REST</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <ul>
+            <li>Gestion de projets web</li>
+            <li>Maintenance & optimisation IT</li>
+            <li>Client management & support</li>
+            <li>Git/GitHub, Méthodes Agiles</li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <h4>Développeur Web Freelance</h4>
-    <p><em>Remote | 2022 – Présent</em></p>
-    <ul>
-      <li>Conception et développement d’applications web responsives avec Django et JavaScript.</li>
-      <li>Intégration d’API REST et fonctionnalités backend en Python (Flax).</li>
-      <li>Livraison de projets pour des clients internationaux.</li>
-    </ul>
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Parcours</h2>
+      </div>
 
-    <h4>Programmeur IT – LDF</h4>
-    <p><em>Bukavu | 2021 – 2022</em></p>
-    <ul>
-      <li>Support en programmation et gestion des systèmes IT.</li>
-      <li>Développement de solutions numériques internes.</li>
-    </ul>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Expérience professionnelle</h3>
+          <div class="resume-item">
+            <h4>Développeur Web Freelance</h4>
+            <h5>2022 – Présent</h5>
+            <p><em>Bukavu / Remote</em></p>
+            <ul>
+              <li>Conception et développement d’applications web responsives avec Django et JavaScript.</li>
+              <li>Intégration d’APIs REST et fonctionnalités backend personnalisées avec Flax (Python).</li>
+              <li>Livraison de projets pour des clients internationaux.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>Programmeur IT – LDF</h4>
+            <h5>2021 – 2022</h5>
+            <p><em>Bukavu</em></p>
+            <ul>
+              <li>Soutien en programmation et gestion de systèmes IT.</li>
+              <li>Dépannage logiciel et maintenance d’applications internes.</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>Agent de Recouvrement – SENEL</h4>
+            <h5>2020 – 2021</h5>
+            <p><em>Bukavu</em></p>
+            <ul>
+              <li>Gestion des comptes clients et opérations de recouvrement.</li>
+              <li>Soutien administratif et reporting.</li>
+            </ul>
+          </div>
+        </div>
 
-    <h4>Agent de Recouvrement – SENEL</h4>
-    <p><em>Bukavu | 2020 – 2021</em></p>
-    <ul>
-      <li>Gestion des comptes clients et recouvrement de créances.</li>
-      <li>Collaboration avec les équipes finance et opérations.</li>
-    </ul>
-
-    <h4>Stagiaire Développeur Full-Stack – Tech Innovation Hub</h4>
-    <p><em>Bukavu | 2020 – 2021</em></p>
-    <ul>
-      <li>Développement d’une plateforme e-commerce en Django.</li>
-      <li>Implémentation de modèles de base de données et authentification.</li>
-    </ul>
-  </div>
-</section>
-
-<!-- ======= Formations ======= -->
-<section id="education" class="education">
-  <div class="container">
-    <div class="section-title">
-      <h2>Formations</h2>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Formation</h3>
+          <div class="resume-item">
+            <h4>Licence en Sciences Commerciales et Administratives</h4>
+            <h5>2018 – 2021</h5>
+            <p><em>Institut Supérieur Matimanyi – Bukavu</em></p>
+          </div>
+          <div class="resume-item">
+            <h4>Diplôme en Électricité</h4>
+            <h5>2016 – 2018</h5>
+            <p><em>Institut Technique Fundi Maendeleo (ITFM) – Bukavu</em></p>
+          </div>
+          <div class="resume-item">
+            <h4>Certificat en Management et Sciences Économiques</h4>
+            <h5>2015 – 2016</h5>
+            <p><em>CEPROMADE – Bukavu</em></p>
+          </div>
+          <div class="resume-item">
+            <h4>Certificat en Développement Web</h4>
+            <h5>2021</h5>
+            <p><em>Formation en ligne (HTML, CSS, JS, Django)</em></p>
+          </div>
+          <div class="resume-item">
+            <h4>Certificat en Développement Mobile avec Java</h4>
+            <h5>2020</h5>
+            <p><em>Formation en ligne</em></p>
+          </div>
+        </div>
+      </div>
     </div>
-    <ul>
-      <li><b>Licence</b> en Sciences Commerciales et Administratives – Institut Supérieur Matimanyi (2018 – 2021)</li>
-      <li><b>Diplôme</b> en Électricité – ITFM (2016 – 2018)</li>
-      <li><b>Certificat</b> en Management et Sciences Économiques – CEPROMADE (2015 – 2016)</li>
-      <li><b>Certificats en ligne</b> : Développement Web (HTML, CSS, JavaScript, Django), Développement mobile en Java</li>
-    </ul>
-  </div>
-</section>
+  </section>
 
-<!-- ======= Services ======= -->
-<section id="services" class="services">
-  <div class="container">
-    <div class="section-title">
-      <h2>Services</h2>
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services section-bg">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>Voici les services que je propose aux entreprises et particuliers.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-window"></i></div>
+            <h4>Développement Web</h4>
+            <p>Sites vitrines, applications web responsives avec Django et JavaScript.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-phone"></i></div>
+            <h4>Développement Mobile</h4>
+            <p>Applications Android natives avec Java.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-gear"></i></div>
+            <h4>Maintenance IT</h4>
+            <p>Assistance technique, optimisation des performances, dépannage logiciel.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <ul>
-      <li>Développement de sites web modernes et responsives</li>
-      <li>Applications mobiles Android</li>
-      <li>Maintenance et optimisation d’applications existantes</li>
-      <li>Conseils en gestion de projets digitaux</li>
-    </ul>
-  </div>
-</section>
+  </section>
 
-<!-- ======= Portfolio ======= -->
-<section id="portfolio" class="portfolio">
-  <div class="container">
-    <div class="section-title">
-      <h2>Projets</h2>
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Projets</h2>
+      </div>
+      <div class="row portfolio-container">
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Site Portfolio</h4>
+              <p>Site personnel avec Django & JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Plateforme E-commerce</h4>
+              <p>Application full-stack avec panier & authentification</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Application Android</h4>
+              <p>Task Manager en Java avec CRUD</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <ul>
-      <li><b>Site Portfolio :</b> site personnel développé avec Django & JavaScript</li>
-      <li><b>Plateforme e-commerce :</b> application full-stack avec panier et authentification</li>
-      <li><b>Application Android Task Manager :</b> app Java pour gérer les tâches (CRUD)</li>
-    </ul>
-  </div>
-</section>
+  </section>
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Contact</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="info">
+            <div class="address">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Localisation:</h4>
+              <p>Bukavu, RDC</p>
+            </div>
+            <div class="email">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>andre.rochise@yahoo.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vendor JS -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 </html>
